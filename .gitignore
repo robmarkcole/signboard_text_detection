@@ -6,3 +6,4 @@
 *.pkl
 /imagefolder/
 /__pycache__/
+venv*

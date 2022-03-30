@@ -1,5 +1,7 @@
 # Sign Board Text detection using Faster R-CNN
-Generate synthetic dataset for object detection (Faster R-CNN) + evaluate on real data
+Generate synthetic dataset for object detection (Faster R-CNN) + evaluate on real data. Uses open-cv and pillow to create synthetic objects and overlay on real images
+
+https://medium.com/analytics-vidhya/generating-synthetic-dataset-for-object-detection-cbf6a17fa47d
 
 ### Methodology:
 1. Create Synthetic Dataset comprising images and bounding box coordinates for Arabic and English texts.
@@ -24,3 +26,10 @@ Generate synthetic dataset for object detection (Faster R-CNN) + evaluate on rea
 ![Image of Eval 2](https://github.com/kvsnoufal/signboard_text_detection/blob/master/readme_images/eval1.png)
 
 ![Image of Eval 1](https://github.com/kvsnoufal/signboard_text_detection/blob/master/readme_images/eval2.png)
+
+## Dev
+* `python3 -m venv venv`
+* `source venv/bin/activate`
+* `(venv) pip install -r requirements.txt`
+
+Requires various files listed in `generate_images.py`
